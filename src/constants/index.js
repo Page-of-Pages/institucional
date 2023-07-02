@@ -3,19 +3,19 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Inicio",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Funcionalidades",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Productos",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Clientes",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Planificación",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Con el plan adecuado, puedes lograr cualquier cosa que te propongas.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Diseño",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Diseño de interfaces de usuario intuitivas, atractivas y funcionales.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Desarrollo",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "El desarrollo es el proceso alquímico de convertir los sueños en código.",
   },
 ];
 
