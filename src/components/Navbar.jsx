@@ -1,5 +1,8 @@
 import { useState } from "react";
-
+import logo1 from "../assets/1.svg";
+import logo2 from "../assets/2.svg";
+import logo3 from "../assets/3.svg";
+import logo4 from "../assets/4.svg";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -9,8 +12,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <a href="/" className="cursor-pointer">
-        <img src={logo} alt="npbank" className="w-[125px] h-[56px]" />
+      <a href="/" className="cursor-pointer flex flex-row items-center">
+        <img src={logo1} alt="npbank" className="w-[30px] h-auto" />
+        <p className="font-poppins font-semibold px-2 text-white text-2xl">Palan't</p>
       </a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
