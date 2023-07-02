@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <a href="/" className="cursor-pointer flex flex-row items-center gap-5">
         <img src={logo1} alt="palant" className="w-[30px] h-auto" />
-        <p className="nav-links font-poppins font-normal cursor-pointer text-xl text-white">Palan't</p>
+        <p className="nav-links font-poppins font-normal cursor-pointer text-xl text-white">palan't</p>
       </a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
