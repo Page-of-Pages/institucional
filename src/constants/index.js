@@ -59,25 +59,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "¡Es un verdadero golazo en el mundo digital! Su diseño elegante y sofisticado, al igual que mis movimientos en el campo, hacen que la experiencia de navegación sea simplemente espectacular. Si estás buscando un sitio web de primer nivel, él es tu mejor elección. ¡Un trabajo impecable, como un pase preciso!",
+    name: "Lionel Messi",
+    title: "Goat",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Si anhelas un sitio web de una calidad tan excepcional que pareciera desafiar las leyes de la física, no necesitas buscar más. Es una maravilla cómo ha logrado destilar su genialidad en cada aspecto de esta hipnótica plataforma virtual, sumergiéndonos en un universo cuántico de innovación.",
+    name: "Stephen hopkins",
+    title: "Cientifico fisico teorico",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "El sitio web de mis amiguitos es una explosión de diseño y creatividad, ofreciendo servicios de venta y diseño de sitios web que harán vibrar a tu audiencia. Confía en él para crear una presencia en línea única y emocionante.",
+    name: "Mona Jimenez",
+    title: "Cuartetero",
     img: people03,
   },
 ];
