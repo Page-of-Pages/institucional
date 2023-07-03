@@ -1,5 +1,5 @@
 [NPBank](https://dub.sh/npbank)
-# NPBank Website Landing Page - Modern UI/UX website 
+# palan't web institucional 
 
 This project is a bank website landing page built using React, and Tailwind. It provides a modern and responsive design for showcasing bank's services and attracting potential customers.
 
