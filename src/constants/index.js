@@ -10,10 +10,6 @@ import {
   binance,
   coinbase,
   dropbox,
-  send,
-  shield,
-  star,
-  plan,
 } from "../assets";
 export const mailTo = "not.pala.not@gmail.com"
 export const navLinks = [
