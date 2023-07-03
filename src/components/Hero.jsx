@@ -1,6 +1,7 @@
 import styles from "../style";
 import { discount, bankcards } from "../assets";
 import GetStarted from "./GetStarted";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -19,9 +20,9 @@ const Hero = () => {
           </p>
         </div> */}
 
-        <div className="flex flex-row justify-between items-center w-full">
+        <div className="flex flex-row justify-between items-center w-full xl:pt-20">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-          Tu presencia   <br className="sm:block hidden" />{" "}
+            Tu presencia <br className="sm:block hidden" />{" "}
             <span className="text-gradient"> online</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
@@ -30,11 +31,16 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-        sin trabajar
+          sin trabajar
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Tu presencia en línea transformada sin esfuerzo. Páginas web cautivadoras que elevan tu marca. Confía en nuestra experiencia para alcanzar el éxito digital.
+          Tu presencia en línea transformada sin esfuerzo. Páginas web
+          cautivadoras que elevan tu marca. Confía en nuestra experiencia para
+          alcanzar el éxito digital.
         </p>
+        <div className="self-start py-10" >
+          <Button />
+        </div>
       </div>
 
       <div
@@ -64,9 +70,9 @@ const Hero = () => {
         {/* gradient end */}
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
+      {/* <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
-      </div>
+      </div> */}
     </section>
   );
 };
