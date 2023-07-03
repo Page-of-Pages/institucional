@@ -1,5 +1,21 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
-
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+  plan,
+} from "../assets";
+export const mailTo = "not.pala.not@gmail.com"
 export const navLinks = [
   {
     id: "home",
@@ -7,7 +23,7 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Funcionalidades",
+    title: "Proceso",
   },
   {
     id: "product",
@@ -22,21 +38,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: "brain",
     title: "Planificación",
     content:
       "Con el plan adecuado, puedes lograr cualquier cosa que te propongas.",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: "design",
     title: "Diseño",
     content:
       "Diseño de interfaces de usuario intuitivas, atractivas y funcionales.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: "dev",
     title: "Desarrollo",
     content:
       "El desarrollo es el proceso alquímico de convertir los sueños en código.",
