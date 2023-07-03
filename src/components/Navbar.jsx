@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <a href="/" className="cursor-pointer flex flex-row items-center gap-5">
-        <img src={logo1} alt="palant" className="w-[30px] h-auto" />
+        <img src={logo1} alt="palant" className="w-[60px] h-auto -mt-5" />
         <p className="nav-links font-poppins font-normal cursor-pointer text-xl text-white">palan't</p>
       </a>
 

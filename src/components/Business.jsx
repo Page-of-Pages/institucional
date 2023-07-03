@@ -1,6 +1,9 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { GiBrainstorm } from "react-icons/gi";
+import {PiPaintBrushFill} from "react-icons/pi"
+import {FaLaptopCode} from "react-icons/fa"
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -9,9 +12,13 @@ const FeatureCard = ({ icon, title, content, index }) => (
     } feature-card`}
   >
     <div
-      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue flex items-center justify-center`}
     >
-      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+      {icon === "brain" && <GiBrainstorm size={40} className="text-secondary"/>}
+      {icon === "design" && <PiPaintBrushFill size={40} className="text-secondary"/>}
+      {icon === "dev" && <FaLaptopCode size={40} className="text-secondary"/>}
+      
+      {/* <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" /> */}
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
