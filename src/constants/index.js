@@ -61,14 +61,14 @@ export const feedback = [
     content:
       "¡Es un verdadero golazo en el mundo digital! Su diseño elegante y sofisticado, al igual que mis movimientos en el campo, hacen que la experiencia de navegación sea simplemente espectacular. Si estás buscando un sitio web de primer nivel, él es tu mejor elección. ¡Un trabajo impecable, como un pase preciso!",
     name: "Lionel Messi",
-    title: "Goat",
+    title: "Campeon del mundo",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
       "Si anhelas un sitio web de una calidad tan excepcional que pareciera desafiar las leyes de la física, no necesitas buscar más. Es una maravilla cómo ha logrado destilar su genialidad en cada aspecto de esta hipnótica plataforma virtual, sumergiéndonos en un universo cuántico de innovación.",
-    name: "Stephen hopkins",
+    name: "Stephen Hawking",
     title: "Cientifico fisico teorico",
     img: people02,
   },
@@ -77,6 +77,14 @@ export const feedback = [
     content:
       "El sitio web de mis amiguitos es una explosión de diseño y creatividad, ofreciendo servicios de venta y diseño de sitios web que harán vibrar a tu audiencia. Confía en él para crear una presencia en línea única y emocionante.",
     name: "Mona Jimenez",
+    title: "Cuartetero",
+    img: people03,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "El sitio web de mis amiguitos es una explosión de diseño y creatividad, ofreciendo servicios de venta y diseño de sitios web que harán vibrar a tu audiencia. Confía en él para crear una presencia en línea única y emocionante.",
+    name: "Michael Jackson",
     title: "Cuartetero",
     img: people03,
   },
@@ -170,22 +178,12 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/palant.web",
   },
   {
     id: "social-media-2",
     icon: facebook,
     link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
   },
 ];
 
