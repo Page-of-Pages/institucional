@@ -80,14 +80,6 @@ export const feedback = [
     title: "Cuartetero",
     img: people03,
   },
-  {
-    id: "feedback-4",
-    content:
-      "El sitio web de mis amiguitos es una explosión de diseño y creatividad, ofreciendo servicios de venta y diseño de sitios web que harán vibrar a tu audiencia. Confía en él para crear una presencia en línea única y emocionante.",
-    name: "Michael Jackson",
-    title: "Cuartetero",
-    img: people03,
-  },
 ];
 
 export const stats = [
