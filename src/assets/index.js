@@ -22,7 +22,7 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.jpg";
 import people02 from "./people02.jpg";
-import people03 from "./people03.png";
+import people03 from "./people03.jpg";
 
 export {
   airbnb,

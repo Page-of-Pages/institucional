@@ -6,12 +6,10 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Todas tus ventas  <br className="sm:block hidden" /> al alcance de tu mano.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Effortlessly explore and uncover an enhanced card deal that surpasses the current
-      one by effortlessly following a straightforward series of steps and actions.
+      Toma decisiones con solo ver las graficas. Conoce el comportamiento de tus ventas y clientes.
       </p>
 
       <Button styles={`mt-10`} />

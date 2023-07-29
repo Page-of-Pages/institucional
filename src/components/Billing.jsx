@@ -30,19 +30,12 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+        Controlá facil tu <br className="sm:block hidden" /> facturación
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Effectively manage and maintain control over your billing 
-      and invoicing processes with utmost ease and convenience.
+      Podemos desarrollar un sistema de gestión altamente eficiente que te permitirá administrar y mantener un control óptimo sobre tus procesos de facturación y facturación. Con la máxima facilidad y comodidad, podrás manejar cada aspecto de tu ciclo de facturación de manera efectiva.
       
       </p>
-
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img src={apple} alt="google_play" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" />
-        <img src={google} alt="google_play" className="w-[144.17px] h-[43.08px] object-contain cursor-pointer" />
-      </div>
     </div>
   </section>
 );
