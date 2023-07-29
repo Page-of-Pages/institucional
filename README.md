@@ -1,7 +1,7 @@
-[palan't](https://dub.sh/npbank)
+[palan't](https://page-of-pages.github.io/institucional/)
 # palan't web institucional 
 
-This project is a bank website landing page built using React, and Tailwind. It provides a modern and responsive design for showcasing bank's services and attracting potential customers.
+<!-- This project is a bank website landing page built using React, and Tailwind. It provides a modern and responsive design for showcasing bank's services and attracting potential customers.
 
 ## Features
 
@@ -14,4 +14,4 @@ This project is a bank website landing page built using React, and Tailwind. It 
 
 
 <img src='https://i.postimg.cc/cHyqTBXy/npbank.png' alt='carhub1'/>
-<img src='https://i.postimg.cc/YSmK1sNz/npbank2.png' alt='carhub2'/>
+<img src='https://i.postimg.cc/YSmK1sNz/npbank2.png' alt='carhub2'/> -->
